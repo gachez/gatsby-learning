@@ -51,16 +51,7 @@ export default ({ children }) => {
     >
       About Us
     </Link>
-    <Link
-      to={`/contact/`}
-      css={css`
-        float: right;
-        padding-left: 50px;
 
-      `}
-    >
-      Contact Us
-    </Link>
     {children}
   </div>
 )
